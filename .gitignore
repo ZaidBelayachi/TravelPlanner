@@ -10,6 +10,16 @@
 !.yarn/releases
 !.yarn/versions
 
+# Environment variables
+.env
+.env*.local
+
+# Node modules & build outputs
+node_modules/
+.next/
+app/generated/
+
+
 # testing
 /coverage
 
